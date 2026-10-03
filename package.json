@@ -1,0 +1,13 @@
+{
+  "name": "twitch-mute-shouts",
+  "version": "1.0.0",
+  "description": "Browser extension that hides the unread badge on Twitch's Shouts button.",
+  "private": true,
+  "scripts": {
+    "package": "node scripts/package-extension.js",
+    "build": "npm run package"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

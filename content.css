@@ -1,0 +1,7 @@
+/*
+ * Hides the unread badge on Twitch's Shouts button in the site header.
+ * The Shouts feature remains fully functional — only the red unread indicator is hidden.
+ */
+div[class*=Layout-sc]:has(> div > div > div > button[aria-label=Shouts]) div[class*=badge] {
+  display: none;
+}

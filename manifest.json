@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Mute Shouts",
+  "version": "1.0.0",
+  "description": "Hides the unread badge on Twitch's Shouts button so it stops demanding your attention.",
+  "icons": {
+    "16": "shush.png",
+    "32": "shush.png",
+    "48": "shush.png",
+    "128": "shush.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "css": ["content.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "twitch-mute-shouts@extension",
+      "strict_min_version": "109.0"
+    }
+  }
+}
