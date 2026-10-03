@@ -9,12 +9,11 @@
  * The only difference between the two packages is that the Firefox zip retains
  * the `browser_specific_settings` key (required by AMO), which Chrome ignores
  * anyway — so both browsers can actually load the same zip.  We produce two
- * separate files so you have explicit artefacts for each store upload.
+ * separate files so you have explicit artifacts for each store upload.
  */
 
-const fs   = require('fs');
-const path = require('path');
-const zlib = require('zlib');
+const fs   = require('node:fs');
+const path = require('node:path');
 
 const ROOT    = path.join(__dirname, '..');
 const DIST    = path.join(ROOT, 'dist');
@@ -134,7 +133,7 @@ function checkIcons() {
     try { fs.accessSync(path.join(ROOT, f)); return false; } catch { return true; }
   });
   if (missing.length) {
-    console.error('Missing files — run `npm run generate-icons` first:\n  ' + missing.join('\n  '));
+    console.error('Missing files (ensure shush.png exists and re-run `npm run build`):\n  ' + missing.join('\n  '));
     process.exit(1);
   }
 }

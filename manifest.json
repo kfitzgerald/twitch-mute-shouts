@@ -19,7 +19,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "twitch-mute-shouts@extension",
-      "strict_min_version": "109.0"
+      "strict_min_version": "121.0"
     }
   }
 }

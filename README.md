@@ -20,9 +20,9 @@ No JavaScript, no network requests, no tracking — just CSS.
 
 | Browser | Manifest | Min version |
 |---------|----------|-------------|
-| Chrome / Chromium | MV3 | 88+ |
-| Firefox | MV3 | 109+ |
-| Edge | MV3 | 88+ |
+| Chrome / Chromium | MV3 | 105+ |
+| Firefox | MV3 | 121+ |
+| Edge | MV3 | 105+ |
 
 ## Installing from source
 
