@@ -9,6 +9,7 @@
     "48": "shush.png",
     "128": "shush.png"
   },
+  "homepage_url": "https://github.com/kfitzgerald/twitch-mute-shouts",
   "content_scripts": [
     {
       "matches": ["*://*.twitch.tv/*"],
@@ -19,7 +20,10 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "twitch-mute-shouts@extension",
-      "strict_min_version": "121.0"
+      "strict_min_version": "121.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }

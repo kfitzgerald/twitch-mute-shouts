@@ -85,7 +85,7 @@ git push origin v1.0.0
 
 ## Contributing
 
-Pull requests welcome. Please keep changes focused — this extension is intentionally minimal.
+Pull requests welcome at [github.com/kfitzgerald/twitch-mute-shouts](https://github.com/kfitzgerald/twitch-mute-shouts). Please keep changes focused — this extension is intentionally minimal.
 
 ## License
 
