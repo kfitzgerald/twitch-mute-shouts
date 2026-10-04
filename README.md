@@ -16,6 +16,10 @@ div[class*=Layout-sc]:has(> div > div > div > button[aria-label=Shouts]) div[cla
 
 No JavaScript, no network requests, no tracking — just CSS.
 
+| Before                                                             | After |
+|--------------------------------------------------------------------|---|
+| ![Before: Twitch header with Shouts unread badge](docs/before.png) | ![After: Twitch header with Shouts unread badge hidden](docs/after.png) |
+
 ## Browser support
 
 | Browser | Manifest | Min version |
